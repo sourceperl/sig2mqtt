@@ -1,0 +1,14 @@
+{
+  "name": "sig2mqtt",
+  "version": "0.1.0",
+  "author": "sourceperl <loic.celine@free.fr>",
+  "description": "simple gateway between sigfox-backend http callback and an MQTT broker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourceperl/sig2mqtt.git"
+  },
+  "dependencies": {
+    "mqtt": "~0.3"
+  },
+  "license": "GPL v2"
+}
