@@ -18,11 +18,11 @@ Simple node gateway between sigfox-backend HTTP callback and local MQTT broker
 
 ## Use it
 
-* directly on console (just for test)
+Directly on console (just for test)
 
     node sig2mqtt.js
 
-* use with [supervisord](http://supervisord.org/) on debian like GNU/Linux
+Use with [supervisor](http://supervisord.org/) on debian like GNU/Linux
 
     sudo apt-get install supervisor
     sudo cp supervisord/sig2mqtt.conf /etc/supervisor/conf.d/
